@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Varibales */
+:root {
+}
+
+/* Universal Classes */
+
+.red {
+  color: red !important;
+}
+.green {
+  color: #13f103 !important;
+}
+
+section {
+  padding: 50px 112px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 36px;
+}
+
+/* Header Code  */
+
+.header {
+  background: #091838;
+  display: flex;
+  align-items: center;
+  top: 0;
+  padding: 20px 112px;
+  position: sticky;
+  justify-content: space-between;
+  left: 0;
+  z-index: 10;
+}
+.header .nav_link_container {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header .nav_link_container a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.header .search_bar_container img {
+  cursor: pointer;
+}
+
+/* Section 1  */
+
+.section1 {
+  background: #041334;
+}
+.section1 .section1_div {
+  color: white;
+  margin-bottom: 30px;
+}
+.section1 .section1_div p {
+  font-size: 16px;
+  margin-top: 5px;
+  font-weight: 400;
+}
+
+/* Section 1 table */
+
+#table {
+  width: 100%;
+  table-layout: fixed;
+}
+#table thead {
+  height: 50px;
+}
+#table thead tr th {
+  color: white;
+  font-weight: 500;
+}
+#table thead tr th.th_name {
+  text-align: left;
+  padding-left: 2px;
+}
+#table tbody tr {
+  height: 52px;
+  vertical-align: middle;
+}
+#table tbody tr td {
+  text-align: center;
+  color: white;
+  font-size: 13px;
+}
+#table tbody tr td.name_td {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  height: 52px;
+}
+#table tbody tr td.name_td img {
+  width: 30px;
+  margin-right: 10px;
+}
+#table tbody tr td.name_td span {
+  margin-left: 10px;
+  font-size: 11px;
+  color: #858585;
+  margin-top: 5px;
+}
+
+.table_btn {
+  background: linear-gradient(90deg, #3dd8ee 0%, #0997e8 100%);
+  border-radius: 5px;
+  color: white;
+  width: 100px;
+  height: 39px;
+  border: none;
+  font-size: 14px;
+  margin-top: 38px;
+  margin-inline: auto;
+  display: block;
+  cursor: pointer;
+}
+
+/* Section2  */
+
+.section2 {
+  display: flex;
+  align-items: flex-start;
+  background: #00092a;
+}
+.section2 .section2_left {
+  width: 60%;
+}
+.section2 .section2_left figure {
+  position: relative;
+}
+.section2 .section2_left figure .ellipse_1 {
+  position: absolute;
+  height: 280px;
+  width: 280px;
+  left: 148px;
+  top: 32px;
+}
+.section2 .section2_left figure .ellipse_2 {
+  position: absolute;
+  left: 137px;
+  height: 300px;
+  width: 264px;
+  top: 41px;
+}
+.crypto_img_1 {
+  width: 30px !important;
+  position: absolute;
+  top: 127px;
+  left: 139px;
+}
+.crypto_img_2 {
+  width: 30px !important;
+  position: absolute;
+  top: 276px;
+  left: 333px;
+}
+.crypto_img_3 {
+  width: 30px !important;
+  position: absolute;
+  top: 164px;
+  left: 395px;
+}
+.section2 .section2_left figure img {
+  width: 100%;
+}
+.section2 .section2_right {
+  color: white;
+  width: 40%;
+}
+
+.section2 .section2_right > p {
+  margin: 20px 0 30px;
+  font-size: 16px;
+}
+.fig_text_divs {
+  display: flex;
+  margin-bottom: 25px;
+}
+.fig_text_img_container {
+  display: flex;
+  background: #15203b;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 65px;
+  border-radius: 5px;
+  margin-right: 25px;
+}
+.fig_text_divs .fig_text_details > p {
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 2px;
+}
+
+/* Section 3 */
+
+.section3 {
+  background: #041334;
+  display: flex;
+  justify-content: space-between;
+}
+.section3_left {
+  color: white;
+  width: 40%;
+}
+.section3_checks_container {
+  margin-top: 45px;
+}
+.checks_div {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.checks_div img {
+  margin-right: 20px;
+}
+.checks_div .checks_div_details {
+}
+.checks_div .checks_div_details h4 {
+  font-weight: 500;
+}
+.checks_div .checks_div_details p {
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 2px;
+}
+
+.section3_right {
+  width: 55%;
+  position: relative;
+  padding-top: 33px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section3_right_card {
+  background: linear-gradient(
+    180.04deg,
+    rgba(4, 19, 52, 0.78) -3.16%,
+    rgba(15, 37, 84, 0.62) 99.42%
+  );
+  border: 2px solid #142346;
+  backdrop-filter: blur(1px);
+  border-radius: 18px;
+  width: 300px;
+  padding: 32px;
+  margin-inline: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.section3_right_card h3 {
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 30px;
+}
+.section3_crypto_div_container {
+}
+.section3_crypto_div {
+  display: flex;
+  margin-bottom: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+.section3_crypto_div:last-child {
+  margin-bottom: 0px;
+}
+.section3_crypto_div_left {
+  display: flex;
+  align-items: center;
+}
+.section3_crypto_div_left img {
+  width: 40px;
+  height: 40px;
+}
+.section3_crypto_div_left_details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  color: white;
+  font-weight: 400;
+}
+.section3_crypto_div_left_details span {
+  font-size: 12px;
+  font-weight: 200;
+}
+.section3_crypto_div_right {
+}
+.section3_crypto_div_right img {
+}
+
+.section3_img {
+  width: 100%;
+  opacity: 0.6;
+}
+
+/* Footer */
+
+footer {
+  /* padding: 50px 112px; */
+}
+footer .footer_top {
+  display: flex;
+  background: #00092a;
+  padding: 50px 112px;
+  color: white;
+}
+footer .footer_top .col_lg {
+  width: 40%;
+}
+footer .footer_top .col_lg img {
+  margin-bottom: 10px;
+}
+footer .footer_top .col_lg p {
+  font-size: 15px;
+  font-weight: 300;
+}
+footer .footer_top .col_sm {
+  width: 20%;
+  list-style: none;
+  padding-left: 50px;
+}
+footer .footer_top .col_sm li {
+  margin-bottom: 10px;
+}
+footer .footer_top .col_sm h4 {
+  font-weight: 400;
+  margin-bottom: 10px;
+  height: 35px;
+}
+footer .footer_top .col_sm li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+
+.footer_bottom {
+  padding: 7px 112px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  background: #041334;
+}

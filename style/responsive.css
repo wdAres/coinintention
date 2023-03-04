@@ -1,0 +1,148 @@
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header .nav_link_container {
+    display: none;
+  }
+  .logo_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .table_container {
+    width: 100%;
+    overflow-y: scroll;
+  }
+  #table {
+    width: 1000px;
+  }
+  .section2 {
+    flex-direction: column;
+  }
+  .section2 .section2_left {
+    width: 100%;
+  }
+  .section2 .section2_right {
+    width: 100%;
+  }
+
+  .section3 {
+    flex-direction: column;
+  }
+  .section3_right {
+    width: 100%;
+    padding-top: 0px;
+    height: 555px;
+  }
+  .section3_left {
+    width: 100%;
+  }
+  footer .footer_top {
+    flex-wrap: wrap;
+  }
+  footer .footer_top .col_lg {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  footer .footer_top .col_sm {
+    width: 33%;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .header {
+    padding: 20px 30px;
+  }
+
+  section {
+    padding: 50px 30px;
+  }
+
+  footer .footer_top {
+    padding: 50px 30px;
+  }
+
+  .footer_bottom {
+    padding: 7px 30px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+  footer .footer_top .col_sm {
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #041334;
+    padding-bottom: 20px;
+}
+footer .footer_top .col_sm:last-child {
+    width: 100%;
+    margin-bottom: 0px;
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+.section2 .section2_left figure .ellipse_1 {
+    height: 150px;
+    width: 100px;
+    left: 71px;
+    top: 32px;
+  }
+  .section2 .section2_left figure .ellipse_2 {
+    left: 63px;
+    height: 150px;
+    width: 100px;
+    top: 54px;
+  }
+  .crypto_img_1 {
+    top: 56px;
+    left: 63px;
+  }
+  .crypto_img_2 {
+    top: 108px;
+    left: 141px;
+  }
+  .crypto_img_3 {
+    top: 40px;
+    left: 138px;
+  }
+}
+
+
+@media screen and (max-width:450px){
+    .header .logo_container img{
+        width: 200px;
+    }
+
+    .section2 .section2_left figure .ellipse_1 {
+        height: 100px;
+        width: 100px;
+        left: 71px;
+        top: 32px;
+      }
+      .section2 .section2_left figure .ellipse_2 {
+        left: 63px;
+        height: 100px;
+        width: 100px;
+        top: 54px;
+      }
+      .crypto_img_1 {
+        width: 20px !important;
+        top: 56px;
+        left: 63px;
+      }
+      .crypto_img_2 {
+        width: 20px !important;
+        top: 108px;
+        left: 141px;
+      }
+      .crypto_img_3 {
+        width: 20px !important;
+        top: 40px;
+        left: 138px;
+      }
+}
